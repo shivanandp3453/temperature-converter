@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0F0F0;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    color: #213555;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 500px;
+    margin-top: 70px;
+}
+select{
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px;
+}
+h2{
+    font-size: 30px;
+    color: #4F709C;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+    margin-top: 30px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    padding: 4px;
+    background-color:white;
+    
+}
+button{
+    width: 90px;
+    height:47px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    padding: 4px;
+    background-color: red;
+}
+.result-text{
+    font-size: 30px;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 10px;
+}
+.result{
+    text-align: center;
+    background-color: #040D12;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 900;
+    width: 400px;
+}
